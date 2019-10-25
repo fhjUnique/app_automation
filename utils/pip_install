@@ -1,0 +1,8 @@
+pip install appium  #下载selenium包
+pip install xlrd  # 下载读取Excel表包
+pip install xlwt  # 下载写入Excel表包
+pip install PyMySQL  # 下载数据库包
+pip install xlutils
+
+
+
