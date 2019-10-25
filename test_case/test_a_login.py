@@ -30,6 +30,7 @@ class login_(unittest.TestCase):
         text = web.get_text(global_cls.element['login_error'], '获取密码错误提示')
         Assertion.verifyEquals(web, text, '密码错误!', '验证用户名正确，密码错误是否可以登录')
         # Assertion.verifyHaveElement(web, global_cls.element['登录成功'], 'testtesttest')
+        time.sleep(1)
         Assertion.assertEnd('ystx-001')
 
     # 用户名密码都正确
